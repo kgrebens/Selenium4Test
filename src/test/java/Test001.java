@@ -22,7 +22,6 @@ public class Test001 {
         // Aufruf der Seite
         driver=new FirefoxDriver();
         driver.get("https://60tools.com/de/tool/bmi-calculator");
-        driver.manage().timeouts().pageLoadTimeout(120, TimeUnit.SECONDS);
     }
 
     @Test
